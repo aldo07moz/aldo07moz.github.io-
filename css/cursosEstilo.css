@@ -1,0 +1,43 @@
+
+:root{
+    --corPric: #041922;
+    --corFont: #fff;
+    --shadow: 0px 2px 0px #0003;
+    --shadow:0px 0px 3px rgb(0,0,0,0.3);
+}
+section.post {
+    display:flex;
+    justify-content: center;
+    gap:1rem;
+    flex-wrap:wrap;
+    width: 80%;
+    transform: scale(1.2);
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+section.post a{
+    font-size: 0.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+section.post div{
+    padding-right:2rem;
+    max-width: 12rem;
+    height:4.4rem;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: solid 2px rgba(71, 135, 160, 0.3); 
+    border-radius: 1.2rem;
+}
+section.post img{
+    transform: scale(.4);
+    width:60%;
+}
+main{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}

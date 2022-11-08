@@ -1,0 +1,42 @@
+main{
+    display:flex;
+    gap:2rem;
+    flex-direction: column;
+    padding: 1rem;
+}
+h1 {
+    font-size: 1.1rem;
+}
+h2 {
+    font-size: 0.99rem;
+}
+.postc{
+    display: flex;
+    flex-wrap: wrap;
+    border:solid 2px rgb(0,0,0,0.3);
+    padding:2rem;
+    border-top-left-radius:0.6rem;
+    border-top-right-radius:0.6rem;
+    gap:1.2rem;
+    
+}
+.trecho1{
+    padding: 2rem;
+    display: flex;
+    gap:2rem;
+    flex-wrap: wrap;
+}
+.postc img{
+    width:60%;
+}
+
+@media (max-width:600px){
+    .postc{
+        border:none;
+        padding: 0.2rem;
+        justify-content: center;
+    }
+    .postc img{
+        width:90%;
+    }
+}
